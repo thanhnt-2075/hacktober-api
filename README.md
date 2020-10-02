@@ -2,7 +2,7 @@
 
 Contributions to hacktober 2020
 
-## Apa yang dibangun ?
+## What we will make ?
 
 We will build a simple API
 
@@ -20,7 +20,9 @@ We will build a simple API
     - Authenticated user can delete article (DELETE)
 - Will be update
 
-## Cara partisipasinya ?
+## How to participate ?
+
+PLEASE read this [Guidelines](https://hacktoberfest.digitalocean.com/details) first
 
 Looks some [Issues](https://github.com/ericksuryadinata/hacktober-api/issues).
 If the issues is empty, the maintainaer or YOU can add more issues, you can resolve your own created issues, or another user issues.
