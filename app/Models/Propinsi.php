@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models\Models;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Propinsi extends Model
+class Province extends Model
 {
     use HasFactory;
 
@@ -15,7 +15,6 @@ class Propinsi extends Model
      * @var array
      */
     protected $fillable = [
-        'id',
-        'nama',
+        'name',
     ];
 }
