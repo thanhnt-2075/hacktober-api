@@ -1,30 +1,32 @@
 # HACTOBER API
 
-Sebagai bentuk kontribusi hacktober 2020
+Contributions to hacktober 2020
 
 ## Apa yang dibangun ?
 
-Fundamental pengetahuan tentang API
+We will build a simple API
 
 - Register (POST)
 - Login / Logout dengan JWT (POST)
 - User
-    - User yang sudah terautentikasi bisa update profil (PUT)
-- Wilayah
-    - Provinsi (GET)
-    - Kabupaten (GET)
-    - Kecamatan (GET)
-- Artikel
-    - User terautentikasi bisa buat artikel (POST)
-    - User terautentikasi bisa update artikel (PUT)
-    - User terautentikasi bisa delete artikel (DELETE)
+    - Authenticated user can update profil (PUT)
+- Region
+    - Province (GET)
+    - City(GET)
+    - SubDistrict (GET)
+- Article
+    - Authenticated user can post article(POST)
+    - Authenticated user can update article (PUT)
+    - Authenticated user can delete article (DELETE)
+- Will be update
 
 ## Cara partisipasinya ?
 
-Lihat di [Issues](https://github.com/ericksuryadinata/hacktober-api/issues), jika habis, siapapun boleh membuka issues baru lagi, assign tugas tersebut ke diri kalian sendiri, atau tunggu lainnya mengerjakan issues kalian
+Looks some [Issues](https://github.com/ericksuryadinata/hacktober-api/issues).
+If the issues is empty, the maintainaer or YOU can add more issues, you can resolve your own created issues, or another user issues.
 
-- Fork project ini
-- Clone project yang kalian fork ke komputer kalian masing - masing
-- Buat branch baru di project yang telah kalian clone tersebut
-- Setelah selesai development, lakukan push ke repo kalian sendiri, kemudian open pull request ke repo ini
-- Sekarang tinggal dulu maintainer repo mengaccept pull request kalian, ada kemungkinan pull request kalian ditolak
+- Fork project
+- Clone project your forked project
+- Make a new branch from your cloned project
+- After dev, push it to your cloned project, and open pull request
+- Now just wait, Maintainer may not accept your pull request
